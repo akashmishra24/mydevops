@@ -1,0 +1,18 @@
+# Understanding functions
+def my_func():
+	print("Hello function!")
+my_func()
+
+def my_func1(name = 'Akash'):
+	print("Hello "+name)
+my_func1()
+
+def my_func2(name):
+	print("Hello "+name)
+my_func2('Akash')
+
+# Use of 'Return
+def my_sum(num1, num2):
+	return num1+num2
+result = my_sum(4,8)
+print("Sum is",result)
